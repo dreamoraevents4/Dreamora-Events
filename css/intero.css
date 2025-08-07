@@ -1,0 +1,87 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  padding-top: 170px;
+}
+
+.icon-boxes {
+  padding: 20px;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  margin: 20px auto;
+  max-width: 1200px;
+}
+
+.icon-boxes .row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.icon-boxes .col-xl-4 {
+  flex: 1;
+  max-width: 33%;
+}
+
+.icon-box {
+  background: #ffffff;
+  border: 2px solid #cce5ff;
+  padding: 30px 20px;
+  border-radius: 15px;
+  text-align: center;
+  transition: 0.3s;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.05);
+}
+
+.icon-box:hover {
+  transform: translateY(-8px);
+  border-color: #17a2b8;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+}
+
+.icon-box i {
+  font-size: 42px;
+  color: #17a2b8;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.icon-box h4 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #0d6efd;
+  margin-bottom: 10px;
+}
+
+.icon-box p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.btn-info {
+  background-color: #17a2b8;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  font-size: 16px;
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+.btn-info:hover {
+  background-color: #138496;
+}
+
+@media (max-width: 992px) {
+  .icon-boxes .row {
+    flex-wrap: wrap;
+  }
+  .icon-boxes .col-xl-4 {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
